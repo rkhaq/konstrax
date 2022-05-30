@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  z-index: 100;
+}
+
+.hero {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: 20rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5rem;
+}
